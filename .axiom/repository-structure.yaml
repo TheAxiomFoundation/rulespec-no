@@ -12,7 +12,6 @@ allowed_root_files:
   - CLAUDE.md
   - PROGRESS.md
   - README.md
-  - corpus-manifest-skeleton.yaml
   - engine-currency-seed.diff
   - known-missing-money-atoms.yaml
   - known-validation-gaps.yaml

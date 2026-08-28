@@ -12,7 +12,7 @@ CONTENT_DIRS = ("statutes", "regulations", "policies", "legislation")
 IGNORED_DIRS = {".git", ".pytest_cache", ".ruff_cache", ".venv", "__pycache__"}
 ALLOWED_ROOT_DIRS = {".axiom", ".github", "bulk", "data", "programs", "tests", "no"}
 ALLOWED_ROOT_FILES = {
-    ".gitignore", "CLAUDE.md", "PROGRESS.md", "README.md", "corpus-manifest-skeleton.yaml",
+    ".gitignore", "CLAUDE.md", "PROGRESS.md", "README.md",
     "engine-currency-seed.diff", "known-missing-money-atoms.yaml",
     "known-validation-gaps.yaml", "oracle-coverage-pending.yaml", "variables.toml",
 }

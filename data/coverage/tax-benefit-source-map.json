@@ -1,7 +1,35 @@
 {
-  "generated_at": "TODO(no)",
+  "generated_at": "2026-08-28",
   "jurisdiction": "no",
-  "validation_year": "TODO(no)",
-  "note": "TODO(no): map the tax-benefit surface to governing law.",
-  "instruments": []
+  "validation_year": "2022 and 2023",
+  "note": "Bounded wealth-tax intake for the Cantó and García-Rodríguez replication. These prepared manifest paths are not a signed corpus-release binding.",
+  "source_intake": {
+    "status": "prepared_pending_publication",
+    "manifests": [
+      "manifests/no-wealth-tax-statutes-official-documents.yaml",
+      "manifests/no-wealth-tax-guidance-official-documents.yaml"
+    ]
+  },
+  "instruments": [
+    {
+      "instrument": "2022 and 2023 national and municipal wealth-tax rates and allowances",
+      "governing_law": "Stortingsvedtak om skatt av inntekt og formue for inntektsårene 2022 and 2023",
+      "corpus_citation_paths": [
+        "no/statute/stortingets-skattevedtak/2022/formuesskatt",
+        "no/statute/stortingets-skattevedtak/2023/formuesskatt"
+      ],
+      "status": "manifested_not_ingested"
+    },
+    {
+      "instrument": "Primary and secondary dwelling valuation and share valuation",
+      "governing_law": "Skatteetaten Forskuddsmeldingen and housing-rate guidance for 2022 and 2023",
+      "corpus_citation_paths": [
+        "no/guidance/skatteetaten/forskuddsmeldingen-2022/formuesskatt",
+        "no/guidance/skatteetaten/2022/tax-value-housing",
+        "no/guidance/skatteetaten/forskuddsmeldingen-2023/formuesskatt",
+        "no/guidance/skatteetaten/2023/tax-value-housing"
+      ],
+      "status": "manifested_not_ingested"
+    }
+  ]
 }
