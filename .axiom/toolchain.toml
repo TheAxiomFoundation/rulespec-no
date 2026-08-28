@@ -1,0 +1,7 @@
+# NON-VALIDATING PLACEHOLDER — rulespec-no has no signed corpus release yet.
+# Under TheAxiomFoundation/.github#39 rule 1, replace this file in a dedicated
+# gated toolchain PR after the first release cut. Do not invent values here.
+[toolchain]
+# Required key 1: axiom_corpus_release = "no-rulespec-YYYY-MM-DD"
+# Required key 2: axiom_corpus_release_content_sha256 = "<64 lowercase hex>"
+# Required key 3: validation_waiver_set_sha256 = "<64 lowercase hex>"

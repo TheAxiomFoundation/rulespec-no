@@ -1,0 +1,5 @@
+# Declared oracle-coverage debt for rulespec-no; ratchets both ways.
+version: 1
+issue: "TODO(no): add the jurisdiction tracking issue URL"
+ceiling: 0
+entries: []

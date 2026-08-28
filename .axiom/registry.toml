@@ -1,0 +1,4 @@
+# App-surface visibility for this repo's encodings on axiom-foundation.org.
+# TODO(no): flip to "public" only after the listing gates in README.md hold.
+[registry]
+app_visibility = "experimental"

@@ -1,0 +1,22 @@
+name: Repository Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    # <pin-me>: copy the reviewed validate-rulespec workflow SHA from TheAxiomFoundation/.github.
+    uses: TheAxiomFoundation/.github/.github/workflows/validate-rulespec.yml@<pin-me>
+    secrets: inherit
+    with:
+      # <pin-me>: use the commit of the dedicated toolchain/pin PR for each checkout.
+      axiom-encode-ref: <pin-me>
+      axiom-rules-engine-ref: <pin-me>
+      axiom-corpus-ref: <pin-me>
+      rulespec-us-ref: <pin-me>
+      validate-roots: auto
+      run-generated-guard: true
+      guard-programs-root: false

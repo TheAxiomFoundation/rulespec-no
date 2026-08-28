@@ -1,0 +1,19 @@
+# Scaffold artifact: move the completed manifest to axiom-corpus/manifests/.
+documents:
+  - source_id: TODO-no-official-source
+    jurisdiction: no
+    document_class: statute
+    citation_path: no/statute/TODO
+    title: "TODO(no): official Norway instrument title"
+    source_url: "TODO(no): stable official source URL"
+    source_format: pdf
+    source_as_of: "TODO(no): YYYY-MM-DD"
+    expression_date: "TODO(no): YYYY-MM-DD"
+    language: "TODO(no): ISO 639-1 code"
+    extraction:
+      segmentation: single_block
+    metadata:
+      primary_source: true
+      source_authority: "TODO(no): publishing authority"
+      document_type: "TODO(no): instrument type"
+      source_note: "TODO(no): provenance and amendment-diligence notes"

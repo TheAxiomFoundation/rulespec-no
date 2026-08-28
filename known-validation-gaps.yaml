@@ -1,0 +1,3 @@
+# Known validation gaps ratchet for rulespec-no.
+# TODO(no): keep this decrement-only; the fresh lane has no waived failures.
+validate_failures: {}

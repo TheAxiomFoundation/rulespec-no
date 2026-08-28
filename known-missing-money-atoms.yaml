@@ -1,0 +1,3 @@
+# Money-atom proof-obligation ratchet for rulespec-no.
+# TODO(no): every monetary value must ship with a provision-citing proof atom.
+total_allowed: 0

@@ -1,0 +1,11 @@
+--- a/src/formula.rs
++++ b/src/formula.rs
+@@ -1154,6 +1154,8 @@
+         // Danish Krone: ISO 4217 exponent 2 (100 øre = 1 krone);
+         // Danish statutes state amounts in whole kroner.
+         ("DKK", UnitKindSpec::Currency { minor_units: 2 }),
++        // NOK: ISO 4217 currency exponent 2.
++        ("NOK", UnitKindSpec::Currency { minor_units: 2 }),
+         ("count", UnitKindSpec::Count),
+         ("person", UnitKindSpec::Count),
+         ("ratio", UnitKindSpec::Ratio),
